@@ -1,0 +1,32 @@
+/* Header */
+
+.header{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 20%;
+    background-color: #0056b3;
+    box-shadow: 0 0 10px 1px black;
+    color: #fff;
+}
+
+
+.ul-header{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: #ffff;
+    width: 580px;
+}
+
+.a-header{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.a-header:hover{
+    color: #C0C0C0	;
+}

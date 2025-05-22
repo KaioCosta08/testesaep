@@ -5,14 +5,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="../style/cadastroUser.css">
     <title>Document</title>
 </head>
 
 <body id="body-register">
 
     <!-- Header -->
-    <header id="header">
+    <header class="header">
 
         <!-- Caixa da logo -->
         <div class="box-logo">
@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt->bindParam(":email", $email);
 
     if ($stmt->execute()) {
-        echo "<script>alert('Dados cadastrados com sucesso meu jovem!')</script>";
+        echo "<script>alert('Dados cadastrados com sucesso!')</script>";
     } else {
         echo "Dados recusados!";
     }
